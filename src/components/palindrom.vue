@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="palin">
     <input type="text" v-model="palindromtext">
     <p v-if="show">Palindrom</p>
     <p v-else>Bukan Palindrom</p>
@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'palindrom',
   data () {
     return {
       palindromtext : '',
